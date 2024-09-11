@@ -1,6 +1,9 @@
 GRUPO:
+
 DAVID ROGER SOMBRA FORTE - RA: 2023009566
+
 GUILHERME MORAIS VASQUES - 2023011985
+
 JAINE BENTO DOS SANTOS - RA: 2023009646
 
 O projeto é um sistema de biblioteca de pequeno porte.
