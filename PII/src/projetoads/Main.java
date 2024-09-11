@@ -11,9 +11,9 @@ public class Main {
 
         // Criando um catálogo de livros
         CatalogoDeLivros catalogo = new CatalogoDeLivros();
-        Book book1 = new Book("O Senhor dos Anéis", "J.R.R. Tolkien");
-        Book book2 = new Book("1984", "George Orwell");
-        Book book3 = new Book("Dom Quixote", "Miguel de Cervantes");
+        Book book1 = new Book("Em busca de mim", "Viola Davis");
+        Book book2 = new Book("A cabana", "William P. Young");
+        Book book3 = new Book("O que Há de Errado com o Mundo", "G. K. Chesterton");
         
         catalogo.addBook(book1);
         catalogo.addBook(book2);
