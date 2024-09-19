@@ -1,0 +1,12 @@
+library-app/
+│
+├── app/
+│   ├── Dockerfile
+│   ├── app.py
+│   ├── requirements.txt
+│
+├── db/
+│   ├── Dockerfile
+│   ├── init.sql
+│
+└── docker-compose.yml
