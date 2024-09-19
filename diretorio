@@ -1,12 +1,25 @@
 library-app/
 │
-├── app/
-│   ├── Dockerfile
-│   ├── app.py
-│   ├── requirements.txt
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── library/
+│   │   │               ├── LibraryApplication.java
+│   │   │               ├── controller/
+│   │   │               │   └── BookController.java
+│   │   │               └── model/
+│   │   │                   └── Book.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── data.sql
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── example/
+│                   └── library/
+│                       └── LibraryApplicationTests.java
 │
-├── db/
-│   ├── Dockerfile
-│   ├── init.sql
-│
+├── Dockerfile
 └── docker-compose.yml
